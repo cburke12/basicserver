@@ -5,7 +5,7 @@ const app = express();
 app.use(loggerMiddleware);
 
 app.get('/', (req, res) => {
-  res.send('This is a successful cloned repo\n'); 
+  res.send('This is a successful cloned repo!\n'); 
 });
 
 app.listen(1337, '127.0.0.1', () => {
