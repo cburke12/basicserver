@@ -4,8 +4,11 @@
   "description": "Basic Server",
   "main": "index.js",
   "scripts": {
-  	"start": "node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Camden Burke"
+  "author": "Camden Burke",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
 }
